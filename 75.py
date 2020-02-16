@@ -41,7 +41,7 @@ class Test_registration(unittest.TestCase):
 
     def test_geristraton_url2(self):
         browser = webdriver.Chrome()
-        link = "http://suninjuly.github.io/registration1.html"
+        link = "http://suninjuly.github.io/registration2.html"
         browser.get(link)
 
         # Ваш код, который заполняет обязательные поля
@@ -73,3 +73,6 @@ class Test_registration(unittest.TestCase):
 
         # закрываем браузер после всех манипуляций
         browser.quit()
+
+if __name__ == "__main__":
+    unittest.main()
