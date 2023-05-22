@@ -40,7 +40,7 @@ python-dotenv==0.10.5
 pytube3==9.5.13
 pywin32==301
 pywin32-ctypes==0.2.0
-requests==2.22.0
+requests==2.31.0
 selenium==3.141.0
 six==1.14.0
 soupsieve==1.9.5
